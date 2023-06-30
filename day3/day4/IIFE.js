@@ -39,6 +39,16 @@
          console.log(b)
       })();
 
-    
+// 3. Sum of all numbers in an array
+    //  a.anonymous function
+      
+      function sum(){
+        let temp=0;
+        for(let i=0;i<=10;i++){
+          temp+=i+i
+
+        }
+      }; sum()
+       
  
         
