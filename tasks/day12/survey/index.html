@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="survey.css" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="card p-3">
+        <div class="form-row">
+          <label for="fullName">Name<span class="required">*</span></label>
+          <div class="w-100"></div>
+          <div
+            class="form-group col-sm-12 col-md-4 col-lg-4 input-container"
+            id="fullName"
+          >
+            <input
+              type="text"
+              class="form-control"
+              aria-describedby="FirstName"
+              id="firstName"
+              required
+            />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-exclamation-circle"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+              />
+              <path
+                d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z"
+              />
+            </svg>
+            <small id="FirstName" class="form-text text-muted"
+              >First Name</small
+            >
+          </div>
+          <div class="form-group col-sm-12 col-md-4 col-lg-4">
+            <input
+              type="text"
+              class="form-control"
+              aria-describedby="LastName"
+              id="lastName"
+              required
+            />
+            <small id="LastName" class="form-text text-muted">Last Name</small>
+          </div>
+        </div>
+        <div class="form-row">
+          <label for="email">Email<span class="required">*</span></label>
+          <div class="w-100"></div>
+          <div class="form-group col-sm-12 col-md-8 col-lg-8">
+            <input type="text" class="form-control" id="email" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <label for="user-experience"
+            >Your Experience<span class="required">*</span></label
+          >
+          <div class="w-100"></div>
+          <div class="form-group col" id="user-experience">
+            <input
+              type="radio"
+              name="experience"
+              id="b1"
+              value="1"
+              class="rating-radio"
+            />
+            <label for="b1" class="rating"></label>
+            <input
+              type="radio"
+              name="experience"
+              id="b2"
+              value="2"
+              class="rating-radio"
+            />
+            <label for="b2" class="rating"></label>
+            <input
+              type="radio"
+              name="experience"
+              id="b3"
+              value="3"
+              class="rating-radio"
+            />
+            <label for="b3" class="rating"></label>
+            <input
+              type="radio"
+              name="experience"
+              id="b4"
+              value="4"
+              class="rating-radio"
+            />
+            <label for="b4" class="rating"></label>
+            <input
+              type="radio"
+              name="experience"
+              id="b5"
+              value="5"
+              class="rating-radio"
+            />
+            <label for="b5" class="rating"></label>
+            <small id="user-experience" class="form-text text-muted"
+              >Overall, How would you rate your experience with us?</small
+            >
+          </div>
+        </div>
+        <div class="form-row">
+          <label for="user-satisfaction"
+            >How satisfied are you with<span class="required">*</span></label
+          >
+          <div class="w-100"></div>
+          <div class="form-group table-responsive" id="user-satisfaction">
+            <table class="table table-striped table-hover table-borderless">
+              <thead>
+                <tr>
+                  <th class="col-2"></th>
+                  <th class="col-2">Very Unsatisfied</th>
+                  <th class="col-2">Unsatisfied</th>
+                  <th class="col-2">Neutral</th>
+                  <th class="col-2">Satisfied</th>
+                  <th class="col-2">Very Satisfied</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Purchase</td>
+                  <td>
+                    <div class="form-check d-flex justify-content-center">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="purchase-rating"
+                        id="Very_Unsatisfied"
+                        value="1"
+                        aria-label="Very Unsatisfied"
+                      />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-check d-flex justify-content-center">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="purchase-rating"
+                        id="Unsatisfied"
+                        value="2"
+                        aria-label="Unsatisfied"
+                      />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-check d-flex justify-content-center">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="purchase-rating"
+                        id="Neutral"
+                        value="3"
+                        aria-label="Neutral"
+                      />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-check d-flex justify-content-center">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="purchase-rating"
+                        id="Satisfied"
+                        value="4"
+                        aria-label="Satisfied"
+                      />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-check d-flex justify-content-center">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="purchase-rating"
+                        id="Very_Satisfied"
+                        value="5"
+                        aria-label="Very Satisfied"
+                      />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Service</td>
+                  <td>
+                    <div class="form-check d-flex justify-content-center">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="service-rating"
+                        id="Very_Unsatisfied"
+                        value="1"
+                        aria-label="Very Unsatisfied"
+                      />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-check d-flex justify-content-center">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="service-rating"
+                        id="Unsatisfied"
+                        value="2"
+                        aria-label="Unsatisfied"
+                      />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-check d-flex justify-content-center">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="service-rating"
+                        id="Neutral"
+                        value="3"
+                        aria-label="Neutral"
+                      />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-check d-flex justify-content-center">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="service-rating"
+                        id="Satisfied"
+                        value="4"
+                        aria-label="Satisfied"
+                      />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-check d-flex justify-content-center">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="service-rating"
+                        id="Very_Satisfied"
+                        value="5"
+                        aria-label="Very Satisfied"
+                      />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Company Overall</td>
+                  <td>
+                    <div class="form-check d-flex justify-content-center">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="company-rating"
+                        id="Very_Unsatisfied"
+                        value="1"
+                        aria-label="Very Unsatisfied"
+                      />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-check d-flex justify-content-center">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="company-rating"
+                        id="Unsatisfied"
+                        value="2"
+                        aria-label="Unsatisfied"
+                      />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-check d-flex justify-content-center">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="company-rating"
+                        id="Neutral"
+                        value="3"
+                        aria-label="Neutral"
+                      />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-check d-flex justify-content-center">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="company-rating"
+                        id="Satisfied"
+                        value="4"
+                        aria-label="Satisfied"
+                      />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-check d-flex justify-content-center">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="company-rating"
+                        id="Very_Satisfied"
+                        value="5"
+                        aria-label="Very Satisfied"
+                      />
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="form-row">
+          <label for="user-likeliness"
+            >How likely are you to<span class="required">*</span></label
+          >
+          <div class="w-100"></div>
+          <div class="form-group table-responsive" id="user-likeliness">
+            <table class="table table-striped table-hover table-borderless">
+              <thead>
+                <tr>
+                  <th class="col-2"></th>
+                  <th class="col-2">Very Unlikely</th>
+                  <th class="col-2">Unlikely</th>
+                  <th class="col-2">Neutral</th>
+                  <th class="col-2">Likely</th>
+                  <th class="col-2">Very Likely</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Buy from us again</td>
+                  <td>
+                    <div class="form-check d-flex justify-content-center">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="re-buy"
+                        id="Very_Unlikely"
+                        value="1"
+                        aria-label="To Rebuy Very Unlikely"
+                      />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-check d-flex justify-content-center">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="re-buy"
+                        id="Unlikely"
+                        value="2"
+                        aria-label="To Rebuy Unlikely"
+                      />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-check d-flex justify-content-center">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="re-buy"
+                        id="Neutral"
+                        value="3"
+                        aria-label="To Rebuy Neutral"
+                      />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-check d-flex justify-content-center">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="re-buy"
+                        id="Likely"
+                        value="4"
+                        aria-label="To Rebuy Likely"
+                      />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-check d-flex justify-content-center">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="re-buy"
+                        id="Very_Likely"
+                        value="5"
+                        aria-label="To Rebuy Very Likely"
+                      />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Recommend our products to others</td>
+                  <td>
+                    <div class="form-check d-flex justify-content-center">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="recommend_products"
+                        id="Very_Unlikely"
+                        value="1"
+                        aria-label="Very Unlikely to recommend products"
+                      />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-check d-flex justify-content-center">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="recommend_products"
+                        id="Unlikely"
+                        value="2"
+                        aria-label="Unlikely to recommend products"
+                      />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-check d-flex justify-content-center">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="recommend_products"
+                        id="Neutral"
+                        value="3"
+                        aria-label="Neutral to recommend products"
+                      />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-check d-flex justify-content-center">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="recommend_products"
+                        id="Likely"
+                        value="4"
+                        aria-label="Likely to recommend products"
+                      />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-check d-flex justify-content-center">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="recommend_products"
+                        id="Very_Likely"
+                        value="5"
+                        aria-label="Very likely to recommend products"
+                      />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Recommend our company to others</td>
+                  <td>
+                    <div class="form-check d-flex justify-content-center">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="recommend_company"
+                        id="Very_UnLikely"
+                        value="1"
+                        aria-label="Very Unlikely to recommend company"
+                      />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-check d-flex justify-content-center">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="recommend_company"
+                        id="Unlikely"
+                        value="2"
+                        aria-label="Unlikely to recommend company"
+                      />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-check d-flex justify-content-center">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="recommend_company"
+                        id="Neutral"
+                        value="3"
+                        aria-label="Neutral to recommend company"
+                      />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-check d-flex justify-content-center">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="recommend_company"
+                        id="Likely"
+                        value="4"
+                        aria-label="Likely to recommend company"
+                      />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-check d-flex justify-content-center">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="recommend_company"
+                        id="Very_Likely"
+                        value="5"
+                        aria-label="Very Likely to recommend company"
+                      />
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="form-row">
+          <label for="user-comments">Additional comments or suggestions</label>
+          <div class="w-100"></div>
+          <div class="form-group col-12">
+            <textarea
+              class="form-control"
+              id="user-comments"
+              rows="3"
+            ></textarea>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-sm-12 col-md-8 col-lg-8">
+            <button type="submit" class="btn btn-light">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

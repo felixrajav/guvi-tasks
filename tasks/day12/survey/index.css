@@ -1,0 +1,82 @@
+label{
+    font-weight: bold;
+}
+.container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+form.card.p-3 {
+    background-color: rgb(235, 242, 243);
+}
+.form-row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.required{
+    color: red;
+}
+.input-container{
+    position: relative;
+}
+.input-container > svg {
+    position: absolute;
+    top: 0.6em;
+  }
+.rating:before {
+    content: '☆';
+    color: gold;
+    font-size: 2em;
+  }
+.rating.on:before {
+  content: '★';
+  color: gold;
+}
+input:checked + .rating:before {
+  content: '★'; 
+  color: gold;
+} 
+.rating-radio{
+    display: none;
+    
+} 
+.table{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 200;
+}
+.table th{
+    text-align: center;
+}
+.btn-light {
+    color: #212529;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    border-color: #c9ced3;
+}
+
+/* Large desktop */
+@media (min-width: 980px) { 
+    .input-container > svg {
+        left: 90%;
+      }
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+    .input-container > svg {
+        left: 87%;
+      }
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+    .input-container > svg {
+        left: 93%;
+      }
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+    .input-container > svg {
+        left: 90%;
+      }
+}
