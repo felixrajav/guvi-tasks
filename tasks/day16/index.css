@@ -1,0 +1,26 @@
+#contdown{
+    text-align: center;
+    color: rgb(247, 160, 9);
+
+}
+body{
+    background-color:#ffff;
+    
+}
+#display{
+    font-size: 500%;
+    color: rgb(15, 80, 23);
+}
+#content{
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.multicolortext {
+    background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }

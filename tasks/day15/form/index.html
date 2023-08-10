@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
     <style>
+      
       html,
       body {
         min-height: 100%;
@@ -52,7 +53,7 @@ th {
 }
 button {
     padding: 8px 16px;
-    background-color: #4CAF50;
+    background-color: #2b6ce4;
     color: #fff;
     border: none;
     border-radius: 6px;
@@ -61,16 +62,18 @@ button {
     </style>
   </head>
   <body>
-    <h1>User Details </h1>
+    <h1 id="title">User Details </h1>
+    <p id="description">user data </p>
+
     <div class="container">
-        <form id="myform">
-          <div>
+        <form id="form">
+          <div class="form-group">
               <label for="name">First Name <span>*</span>:</label>
-              <input id="fname" type="text" />
+              <input id="first-name"  name="first-name"type="text" placeholder="Enter your First Name" required />
           </div>
-         <div>
+         <div class="form-group">
           <label for="name">Last Name <span>*</span>:</label>
-          <input id="lname" type="text" />
+          <input id="last-name" name="last-name" type="text" placeholder="Enter your last Name" required />
          </div>
          <div>
           <label>Gender<span>*</span>:</label>
@@ -85,27 +88,30 @@ button {
           <input type="checkbox" name="food" value="Filter Coffee" /> Filter Coffee
           <input type="checkbox" name="food" value="Milk Shake" /> Milk Shake
           </div>
-          <div>
+          <div class="form-group">
             <label for="address">Address :</label>
-            <input type="text" id="address">
+            <textarea id="address" name="address" placeholder="Enter your address here"></textarea>
+
+            
           </div>
-          <div>
+          <div class="form-group">
             <label for="pincode">Pincode :</label>
-            <input type="number" id="pincode">
+            <input type="text" id="pincode" name="pincode" placeholder="Enter your country" required>
           </div>
           <div>
             <label for="state">State :</label>
-            <input type="text" id="state">
+            <input type="text" id="state" placeholder="Enter your state">
           </div>
           <div>
             <label for="contry">Contry :</label>
-            <input type="text" id="country">
+            <input type="text" id="country" placeholder="Enter your country">
           </div>
-          <button type="submit">Submit</button>
+          <button class="btn btn-primary" type="submit" id="submit">Submit</button>
         </form>
         <h1>User Data Table </h1>
-        <table id="dataTable">
+       
           <div>
+            <table id="dataTable" class="table">
               <thead>
                   <tr>
                     <th>First Name</th>
@@ -117,10 +123,12 @@ button {
                     <th>State</th>
                     <th>Country</th>
                   </tr>
+                  <tbody></tbody>
                 </thead>
               </table>
           </div>
       </div>
    <script src="./form.js"></script>
+   <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
   </body>
 </html>

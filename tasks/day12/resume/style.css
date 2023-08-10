@@ -1,0 +1,34 @@
+.grid_row1{
+    display: grid;
+    grid-template-rows:auto;
+    background-color: rgb(71, 67, 67);
+    height: 100px;
+    row-gap: 50px;
+}
+.grid_row2{
+    display: grid;
+    grid-template-rows:auto;
+    background-color: rgb(70, 67, 67);
+    height: 30px;
+}
+
+.num1{
+    display: grid;
+    grid-column: 1;
+}
+
+.num2{
+    display: grid;
+    grid-column: 2;
+}
+
+.container1{
+    display: grid;
+    grid-template-columns:50% 50%;
+}
+.name1{
+    
+    background-color: rgb(244, 220, 10);
+    color: rgb(10, 10, 10);
+   
+}

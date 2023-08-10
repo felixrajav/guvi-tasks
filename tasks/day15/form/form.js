@@ -1,11 +1,11 @@
-const form = document.getElementById("myform");
+const form = document.getElementById("form");
 const table = document.getElementById("dataTable");
 
 form.addEventListener("submit", function (event) {
   event.preventDefault();
   debugger;
-  const name = document.getElementById("fname").value;
-  const lname = document.getElementById("lname").value;
+  const name = document.getElementById("first-name").value;
+  const lname = document.getElementById("last-name").value;
   const gender = document.querySelector('input[name="gender"]:checked').value;
   const foodcheckboxes = document.querySelectorAll(
     'input[name="food"]:checked'
