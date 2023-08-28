@@ -1,0 +1,56 @@
+.cards{
+  background-color: aquamarine  ;
+  display: grid;
+}
+.edit{
+ 
+  margin: 20px;
+  background-color: rgb(44, 147, 113);
+  color: aliceblue;
+}
+
+.delete{
+  background-color: chocolate;
+  margin: 20px;
+  color: aliceblue;
+}
+.container{
+  
+ display: grid;
+ background-color: antiquewhite;
+  
+}
+.flued{
+  background-color: lightgreen;
+  display: grid;
+  border: 1px solid;
+  padding: 2em;
+  margin: 10px;
+}
+nav{
+  
+  justify-content: center;
+  background-color: aqua;
+
+}
+.text{
+  padding: 20px;
+  margin: 10px;
+  padding-right: 10px;
+  display:grid;
+  justify-content: center;
+  text-align: center;
+}
+.taskname{
+  padding: 10px;
+
+}
+
+.App{
+  background-color: aqua;
+  height: 250px;
+}
+
+.flex{
+  display: flex;
+}
