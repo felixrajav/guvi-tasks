@@ -24,7 +24,7 @@ a:hover {
 }
 
 /* body {
-  margin: 0;
+  margin: 10px;
   display: flex;
   place-items: center;
   min-width: 320px;
@@ -46,6 +46,7 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  padding: 10px;
 }
 button:hover {
   border-color: #646cff;
@@ -66,4 +67,15 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+.justify-content-center {
+  justify-content: center !important;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid;
+}
+.mb-5 {
+  margin-bottom: 3rem !important;
+  padding: 5px;
+  margin: 10px;
 }
