@@ -9,3 +9,9 @@
   width: 100%;
   height: 100vh;
 }
+
+.contect{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}

@@ -1,8 +1,11 @@
 import React from 'react'
+import './App.css'
 
 function Contect() {
   return (
-    <div>Contect</div>
+    <div className='contect'>
+      <h1>This is a contect page</h1>
+    </div>
   )
 }
 
