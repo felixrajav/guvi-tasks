@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.nav{
+  display: flex;
+  background-color: black;
+  color: aliceblue;
+  padding: 12px;
+  justify-content: space-around;
+}
+.menus>a{
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 12px;
+    
+}
+
+
+  .justify-content-center {
+    justify-content: center !important;
+    margin: 10px;
+    padding: 20px;
+   
+  }
+  .mb-5 {
+    margin-bottom: 3rem !important;
+    padding: 5px;
+    margin: 10px;
+  }
+  .grid{
+    display: flex;
+  }
+
+  button{
+    padding: 12px;
+  }
+  .cart{
+    display: flex;
+    padding: 12px;
+  }
+  .img{
+    width: 150px;
+    height: 160px;
+    padding: 15px;
+  }
