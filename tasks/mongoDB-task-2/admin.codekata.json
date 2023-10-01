@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "6507bfc8f85e905f507d7edf"
+  }
+},
+{
+  "_id": {
+    "$oid": "6507c0e5f85e905f507d7ee0"
+  },
+  "problem_number": 1,
+  "prblem_name": "p-1",
+  "problem_category": "array",
+  "solved_users": [
+    1,
+    2,
+    6
+  ]
+},
+{
+  "_id": {
+    "$oid": "6507c0e5f85e905f507d7ee1"
+  },
+  "problem_number": 2,
+  "prblem_name": "p-2",
+  "solved_users": [
+    3,
+    4,
+    5
+  ]
+},
+{
+  "_id": {
+    "$oid": "6507c0e5f85e905f507d7ee2"
+  },
+  "problem_number": 3,
+  "prblem_name": "p-3",
+  "solved_users": [
+    3,
+    6,
+    2
+  ]
+},
+{
+  "_id": {
+    "$oid": "6507c0e5f85e905f507d7ee3"
+  },
+  "problem_number": 4,
+  "prblem_name": "p-4",
+  "solved_users": [
+    4,
+    1,
+    2
+  ]
+},
+{
+  "_id": {
+    "$oid": "6507c0e5f85e905f507d7ee4"
+  },
+  "problem_number": 5,
+  "prblem_name": "p-5",
+  "solved_users": [
+    5,
+    6,
+    1
+  ]
+}]

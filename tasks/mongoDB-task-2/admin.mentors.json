@@ -1,0 +1,79 @@
+[{
+  "_id": {
+    "$oid": "6507c4bcf85e905f507d7ef0"
+  },
+  "mentor_name": "raj",
+  "mentees": [
+    1,
+    2,
+    6
+  ]
+},
+{
+  "_id": {
+    "$oid": "6507c4bcf85e905f507d7ef1"
+  },
+  "mentor_name": "jack",
+  "mentees": [
+    3,
+    4,
+    5
+  ]
+},
+{
+  "_id": {
+    "$oid": "6507c4bcf85e905f507d7ef2"
+  },
+  "mentor_name": "kumar",
+  "mentees": [
+    3,
+    4,
+    2
+  ]
+},
+{
+  "_id": {
+    "$oid": "6507c4bcf85e905f507d7ef3"
+  },
+  "mentor_name": "venki",
+  "mentees": [
+    3,
+    4,
+    2,
+    6,
+    8,
+    9,
+    5,
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ]
+},
+{
+  "_id": {
+    "$oid": "6507c4bcf85e905f507d7ef4"
+  },
+  "mentor_name": "sri",
+  "mentees": [
+    3,
+    2,
+    6
+  ]
+},
+{
+  "_id": {
+    "$oid": "65082269f85e905f507d7efe"
+  },
+  "mentor_name": "ram",
+  "mentees": [
+    1,
+    2,
+    6
+  ]
+}]

@@ -1,0 +1,51 @@
+[
+  {
+  "_id": {
+    "$oid": "65072705d91a4f50c32aefa9"
+  },
+  "class_date": "2023-9-11",
+  "topic": [ "array",  "string"],
+  "students_attended": [1,4,6],
+  "task_name": "array task",
+  "task_submitted_stud": [ 1, 2, 6]
+},
+{
+  "_id": {
+    "$oid": "65072705d91a4f50c32aefaa"
+  },
+  "class_date": "2023-10-12",
+  "topic": ["array","string"],
+  "students_attended": [3,4,6],
+  "task_name": "String task",
+  "task_submitted_stud": [3,4,5]
+},
+{
+  "_id": {
+    "$oid": "65072705d91a4f50c32aefab"
+  },
+  "class_date": "2023-10-15",
+  "topic": ["map","redcue"],
+  "students_attended": [ 3,4,2],
+  "task_name": "map and reduce function",
+  "task_submitted_stud": [ 3, 4, 1]
+},
+{
+  "_id": {
+    "$oid": "65072705d91a4f50c32aefac"
+  },
+  "class_date": "2023-10-16",
+  "topic": [ "filter", "react"],
+  "students_attended": [3,4,2,6],
+  "task_name": "filter task",
+  "task_submitted_stud": [3,4,2, 6]
+},
+{
+  "_id": {
+    "$oid": "65072705d91a4f50c32aefad"
+  },
+  "class_date": "2023-10-28",
+  "topic": ["redux","next.js"],
+  "students_attended": [3,2,6],
+  "task_name": "redux task",
+  "task_submitted_stud": [3,2,6,1]
+}]

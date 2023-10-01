@@ -1,0 +1,61 @@
+[{
+  "_id": {
+    "$oid": "6507c3caf85e905f507d7ee9"
+  },
+  "drive_date": "2023-10-12",
+  "drive_attended_stud": [
+    1,
+    2,
+    6
+  ],
+  "company_name": "abc"
+},
+{
+  "_id": {
+    "$oid": "6507c3caf85e905f507d7eea"
+  },
+  "drive_date": "2023-1-12",
+  "drive_attended_stud": [
+    3,
+    4,
+    5
+  ],
+  "company_name": "abc"
+},
+{
+  "_id": {
+    "$oid": "6507c3caf85e905f507d7eeb"
+  },
+  "drive_date": "2023-10-15",
+  "drive_attended_stud": [
+    3,
+    4,
+    2
+  ],
+  "company_name": "abc"
+},
+{
+  "_id": {
+    "$oid": "6507c3caf85e905f507d7eec"
+  },
+  "drive_date": "2023-10-16",
+  "drive_attended_stud": [
+    3,
+    4,
+    2,
+    6
+  ],
+  "company_name": "abc"
+},
+{
+  "_id": {
+    "$oid": "6507c3caf85e905f507d7eed"
+  },
+  "drive_date": "2023-9-28",
+  "drive_attended_stud": [
+    3,
+    2,
+    6
+  ],
+  "company_name": "abc"
+}]
